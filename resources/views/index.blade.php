@@ -203,6 +203,16 @@
         <h2 class="pb-2 border-bottom">水晶蝦價格表</h2>
         <font color="#003399"><h5 class="fw-semibold mb-0">紅白水晶蝦飼養溫度22~25度，TDS介於120~130之間，請確定可以上午收貨<font color="red">並入缸</font>之時段再訂購</h5></font>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+            @foreach ($products as $product)
+            <div class="col d-flex align-items-start">
+                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4">{{ $product->name }}</h3>
+                    <div style="background-image: url('uploads/{{$product->image}}');background-size: cover;"><img src="img/border.png" alt="水晶蝦" width="100%"></div>
+                    <p>售價：${{$product->price}}/隻<br>尺寸：{{$product->size}}</p><p>{{$product->description}}</p>
+                </div>
+            </div>
+            @endforeach
             <div class="col d-flex align-items-start">
                 <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
                 <div>
