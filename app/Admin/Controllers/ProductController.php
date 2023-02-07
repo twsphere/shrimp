@@ -32,13 +32,7 @@ class ProductController extends BaseController
         $this->grid->column('price', '價格');
         $this->grid->column('description', '描述');
         $this->grid->column('image', '圖片')->image();
-        $this->grid->column('status', '狀態')->display(function(){
-            if ($this->status == '1') {
-                return '<span class="text-success">顯示</span>';
-            } else {
-                return '<span class="text-danger">隱藏</span>';
-            }
-        });
+        $this->grid->column('status', '狀態')->switch($this::STATES);
 
         return $this->grid;
     }
