@@ -21,18 +21,25 @@ class ProductController extends BaseController
 
     protected function grid()
     {
+        $this->grid->model()->with('category');
         $this->grid->disableExport();
         $this->grid->disableFilter();
         $this->grid->disableRowSelector();
 
         $this->grid->column('id', 'ID');
-        $this->grid->column('category', '類別');
+        $this->grid->column('cate', '類別')->display(function(){
+            return $this->category->name;
+        });
         $this->grid->column('name', '名稱');
         $this->grid->column('size', '尺寸');
         $this->grid->column('price', '價格');
         $this->grid->column('description', '描述');
         $this->grid->column('image', '圖片')->image();
         $this->grid->column('status', '狀態')->switch($this::STATES);
+
+        $this->grid->actions(function (Grid\Displayers\Actions $actions) {
+            $actions->disableView();
+        });
 
         return $this->grid;
     }
