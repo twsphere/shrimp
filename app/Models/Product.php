@@ -3,9 +3,18 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use James\Sortable\SortableTrait;
+use James\Sortable\Sortable;
 
 class Product extends Model
 {
+    use SortableTrait;
+
+    public $sortable = [
+        'sort_field' => 'sort',
+        'sort_when_creating' => true,
+    ];
+
     protected $table = 'products';
 
     const OPEN = 1;

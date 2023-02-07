@@ -3,6 +3,7 @@
 namespace App\Admin\Controllers;
 
 use App\Models\Category;
+use App\Models\Product;
 use Encore\Admin\Grid;
 use Encore\Admin\Form\Tools;
 use App\Admin\Components\Form;
@@ -21,6 +22,8 @@ class ProductController extends BaseController
 
     protected function grid()
     {
+        $this->grid->model()->orderBy('sort', 'asc');
+
         $this->grid->model()->with('category');
         $this->grid->disableExport();
         $this->grid->disableFilter();
@@ -36,6 +39,8 @@ class ProductController extends BaseController
         $this->grid->column('description', '描述');
         $this->grid->column('image', '圖片')->image();
         $this->grid->column('status', '狀態')->switch($this::STATES);
+
+        $this->grid->sort('排序')->sortableColumn(Product::class);
 
         $this->grid->actions(function (Grid\Displayers\Actions $actions) {
             $actions->disableView();
