@@ -129,7 +129,7 @@
 
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
             <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/漂亮紅白3.jpg');">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/漂亮紅白3.jpeg');">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                         <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">厚殼紅白水晶蝦</h3>
                         <ul class="d-flex list-unstyled mt-auto">
@@ -142,7 +142,7 @@
             </div>
 
             <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/一般紅白母蝦3.jpg');">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/一般紅白母蝦3.jpeg');">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                         <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">紅白水晶蝦</h3>
                         <ul class="d-flex list-unstyled mt-auto">
@@ -155,7 +155,7 @@
             </div>
 
             <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/藍金母.jpg');">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/藍金母.jpeg');">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">藍金剛</h3>
                         <ul class="d-flex list-unstyled mt-auto">
@@ -168,7 +168,7 @@
             </div>
 
             <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/黑金剛.jpg');">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/黑金剛.jpeg');">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">黑金剛</h3>
                         <ul class="d-flex list-unstyled mt-auto">
@@ -181,7 +181,7 @@
             </div>
 
             <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/全黑黑金剛.jpg');">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/全黑黑金剛.jpeg');">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">黑金剛</h3>
                         <ul class="d-flex list-unstyled mt-auto">
@@ -224,7 +224,7 @@
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
 
             <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/血腥瑪麗.jpg');">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/血腥瑪麗.jpeg');">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">血腥瑪麗</h3>
                         <ul class="d-flex list-unstyled mt-auto">
@@ -237,7 +237,7 @@
             </div>
 
             <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/金背黃米蝦.jpg');">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/金背黃米蝦.jpeg');">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                         <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">金背黃金米蝦</h3>
                         <ul class="d-flex list-unstyled mt-auto">
@@ -250,7 +250,7 @@
             </div>
 
             <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/夢幻藍絲絨.jpg');">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/夢幻藍絲絨.jpeg');">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                         <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">夢幻藍絲絨</h3>
                         <ul class="d-flex list-unstyled mt-auto">
@@ -263,7 +263,7 @@
             </div>
 
             <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/綠米蝦1.jpg');">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/綠米蝦1.jpeg');">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">綠米蝦</h3>
                         <ul class="d-flex list-unstyled mt-auto">
@@ -288,7 +288,7 @@
                 <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
                 <div>
                     <h3 class="fw-bold mb-0 fs-4">血腥瑪麗</h3>
-                    <div style="background-image: url('img/血腥瑪麗3.jpg');background-size: cover;"><img src="img/border.png" alt="水晶蝦" width="100%"></div>
+                    <div style="background-image: url('img/血腥瑪麗3.jpeg');background-size: cover;"><img src="img/border.png" alt="水晶蝦" width="100%"></div>
                     <p>售價：$20/隻<br>尺寸：1.2cm以上</p><p>公母皆有，隨機出貨，恕無法指定公母</p>
                 </div>
             </div>
@@ -296,7 +296,7 @@
                 <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
                 <div>
                     <h3 class="fw-bold mb-0 fs-4">金背黃金米蝦</h3>
-                    <div style="background-image: url('img/金背黃1.jpg');background-size: cover;"><img src="img/border.png" alt="水晶蝦" width="100%"></div>
+                    <div style="background-image: url('img/金背黃1.jpeg');background-size: cover;"><img src="img/border.png" alt="水晶蝦" width="100%"></div>
                     <p>售價：$20/隻<br>尺寸：1.2cm以上</p><p>公母皆有，隨機出貨，恕無法指定公母</p>
                 </div>
             </div>
@@ -304,7 +304,7 @@
                 <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
                 <div>
                     <h3 class="fw-bold mb-0 fs-4">夢幻藍絲絨</h3>
-                    <div style="background-image: url('img/夢幻藍絲絨3.jpg');background-size: cover;"><img src="img/border.png" alt="水晶蝦" width="100%"></div>
+                    <div style="background-image: url('img/夢幻藍絲絨3.jpeg');background-size: cover;"><img src="img/border.png" alt="水晶蝦" width="100%"></div>
                     <p>售價：$20/隻<br>尺寸：1.2cm以上</p><p>公母皆有，隨機出貨，恕無法指定公母</p>
                 </div>
             </div>
@@ -312,7 +312,7 @@
                 <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
                 <div>
                     <h3 class="fw-bold mb-0 fs-4">綠米蝦</h3>
-                    <div style="background-image: url('img/綠米蝦4.jpg');background-size: cover;"><img src="img/border.png" alt="水晶蝦" width="100%"></div>
+                    <div style="background-image: url('img/綠米蝦4.jpeg');background-size: cover;"><img src="img/border.png" alt="水晶蝦" width="100%"></div>
                     <p>售價：$20/隻<br>尺寸：1.2cm以上</p><p>公母皆有，隨機出貨，恕無法指定公母</p>
                 </div>
             </div>
@@ -320,7 +320,7 @@
                 <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
                 <div>
                     <h3 class="fw-bold mb-0 fs-4">香吉士</h3>
-                    <div style="background-image: url('img/香吉士.jpg');background-size: cover;"><img src="img/border.png" alt="水晶蝦" width="100%"></div>
+                    <div style="background-image: url('img/香吉士.jpeg');background-size: cover;"><img src="img/border.png" alt="水晶蝦" width="100%"></div>
                     <p>售價：$20/隻<br>尺寸：1.2cm以上</p><p>公母皆有，隨機出貨，恕無法指定公母</p>
                 </div>
             </div>
@@ -328,7 +328,7 @@
                 <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
                 <div>
                     <h3 class="fw-bold mb-0 fs-4">雪球</h3>
-                    <div style="background-image: url('img/雪球.jpg');background-size: cover;"><img src="img/border.png" alt="水晶蝦" width="100%"></div>
+                    <div style="background-image: url('img/雪球.jpeg');background-size: cover;"><img src="img/border.png" alt="水晶蝦" width="100%"></div>
                     <p>售價：$20/隻<br>尺寸：1.2cm以上</p><p>公母皆有，隨機出貨，恕無法指定公母</p>
                 </div>
             </div>
@@ -345,7 +345,7 @@
 
 
             <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/藍幽靈_大圖.jpg');">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/藍幽靈_大圖.jpeg');">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">藍幽靈</h3>
                         <ul class="d-flex list-unstyled mt-auto">
@@ -358,7 +358,7 @@
             </div>
 
             <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/金眼藍幽靈_大圖.jpg');">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/金眼藍幽靈_大圖.jpeg');">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">金眼藍幽靈</h3>
                         <ul class="d-flex list-unstyled mt-auto">
@@ -383,7 +383,7 @@
                 <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
                 <div>
                     <h3 class="fw-bold mb-0 fs-4">藍幽靈</h3>
-                    <div style="background-image: url('img/藍幽靈2.jpg');background-size: cover;"><img src="img/border.png" alt="蘇蝦" width="100%"></div>
+                    <div style="background-image: url('img/藍幽靈2.jpeg');background-size: cover;"><img src="img/border.png" alt="蘇蝦" width="100%"></div>
                     <p>售價：$1300/隻<br>尺寸：0.8-1.2cm</p><p>隨機出貨，恕無法指定公母</p>
                 </div>
             </div>
@@ -391,7 +391,7 @@
                 <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
                 <div>
                     <h3 class="fw-bold mb-0 fs-4">金眼藍幽靈</h3>
-                    <div style="background-image: url('img/金眼藍幽靈2_new.jpg');background-size: cover;"><img src="img/border.png" alt="蘇蝦" width="100%"></div>
+                    <div style="background-image: url('img/金眼藍幽靈2_new.jpeg');background-size: cover;"><img src="img/border.png" alt="蘇蝦" width="100%"></div>
                     <p>售價：$1800/隻<br>尺寸：0.81.2cm</p><p>隨機出貨，恕無法指定公母</p>
                 </div>
             </div>
@@ -399,7 +399,7 @@
                 <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
                 <div>
                     <h3 class="fw-bold mb-0 fs-4">紅白襪</h3>
-                    <div style="background-image: url('img/紅白襪.jpg');background-size: cover;"><img src="img/border.png" alt="蘇蝦" width="100%"></div>
+                    <div style="background-image: url('img/紅白襪.jpeg');background-size: cover;"><img src="img/border.png" alt="蘇蝦" width="100%"></div>
                     <p>售價：$55/隻(訂購數量10隻起)<br>尺寸：0.8-1.2cm</p><p>隨機出貨，恕無法指定公母</p>
                 </div>
             </div>
@@ -407,7 +407,7 @@
                 <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
                 <div>
                     <h3 class="fw-bold mb-0 fs-4">金眼紅白襪</h3>
-                    <div style="background-image: url('img/金眼紅白襪_new.jpg');background-size: cover;"><img src="img/border.png" alt="蘇蝦" width="100%"></div>
+                    <div style="background-image: url('img/金眼紅白襪_new.jpeg');background-size: cover;"><img src="img/border.png" alt="蘇蝦" width="100%"></div>
                     <p>售價：$800/隻<br>尺寸：0.8-1.2cm</p><p>隨機出貨，恕無法指定公母</p>
                 </div>
             </div>
@@ -415,7 +415,7 @@
                 <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
                 <div>
                     <h3 class="fw-bold mb-0 fs-4">白蘭花</h3>
-                    <div style="background-image: url('img/白蘭花.jpg');background-size: cover;"><img src="img/border.png" alt="蘇蝦" width="100%"></div>
+                    <div style="background-image: url('img/白蘭花.jpeg');background-size: cover;"><img src="img/border.png" alt="蘇蝦" width="100%"></div>
                     <p>售價：$55/隻(訂購數量10隻起)<br>尺寸：0.8-1.2cm</p><p>隨機出貨，恕無法指定公母</p>
                 </div>
             </div>
@@ -423,7 +423,7 @@
                 <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
                 <div>
                     <h3 class="fw-bold mb-0 fs-4">白斑乳牛</h3>
-                    <div style="background-image: url('img/白斑乳牛.jpg');background-size: cover;"><img src="img/border.png" alt="蘇蝦" width="100%"></div>
+                    <div style="background-image: url('img/白斑乳牛.jpeg');background-size: cover;"><img src="img/border.png" alt="蘇蝦" width="100%"></div>
                     <p>售價：$80/隻<br>尺寸：0.8-1.2cm</p><p>隨機出貨，恕無法指定公母</p>
                 </div>
             </div>
@@ -438,7 +438,7 @@
         <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
             <div class="d-flex flex-column align-items-start gap-2">
                 <h3 class="fw-bold"><svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg> 增長型專用飼料</h3>
-                <img src="img/飼料2.jpg" alt="增長型專用飼料" width="100%">
+                <img src="img/飼料2.jpeg" alt="增長型專用飼料" width="100%">
                 <p>規格：30g<br>售價：$180</p>
                 <p class="text-muted">獨家添加純膽固醇、飽和與不飽和脂肪酸、多元胺基酸等配方，促進成蝦、仔蝦健康成長及換殼，提升抵抗力及育成率。獨特配方促進觀賞蝦顯色、增豔，以及腸道健康增進食慾，嗜口性佳，不易崩解、不易破壞水質</p>
             </div>
@@ -447,25 +447,25 @@
                 <div class="d-flex flex-column gap-2">
                     <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-dark fs-4 rounded-3">速</div>
                     <h4 class="fw-semibold mb-0">生長快速</h4>
-                    <img src="img/追餌1.jpg" alt="增長型專用飼料" width="100%">
+                    <img src="img/追餌1.jpeg" alt="增長型專用飼料" width="100%">
                 </div>
 
                 <div class="d-flex flex-column gap-2">
                     <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-warning fs-4 rounded-3">佳</div>
                     <h4 class="fw-semibold mb-0">嗜口性佳</h4>
-                    <img src="img/追餌2.jpg" alt="增長型專用飼料" width="100%">
+                    <img src="img/追餌2.jpeg" alt="增長型專用飼料" width="100%">
                 </div>
 
                 <div class="d-flex flex-column gap-2">
                     <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">獨</div>
                     <h4 class="fw-semibold mb-0">獨家配方</h4>
-                    <img src="img/飼料3.jpg" alt="增長型專用飼料" width="100%">
+                    <img src="img/飼料3.jpeg" alt="增長型專用飼料" width="100%">
                 </div>
 
                 <div class="d-flex flex-column gap-2">
                     <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-danger fs-4 rounded-3">優</div>
                     <h4 class="fw-semibold mb-0">客戶回饋</h4>
-                    <img src="img/評論.jpg" alt="增長型專用飼料" width="100%">
+                    <img src="img/評論.jpeg" alt="增長型專用飼料" width="100%">
                 </div>
 
             </div>
