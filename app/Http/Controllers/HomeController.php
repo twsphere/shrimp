@@ -9,7 +9,7 @@ class HomeController extends Controller
 {
     public function index(Request $request)
     {
-        $products = Product::where('status', Product::OPEN)->get();
+        $products = Product::where('status', Product::OPEN)->orderBy('sort', 'asc')->get();
 
         return view('index', ['products' => $products]);
     }
