@@ -531,6 +531,21 @@
             </div>
         </div>
     </div>
+    <div id="RightFloatTop-2">
+        <div>
+            <a href="" class="cartlink">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="badge badge-danger" data-count="1">1</span>
+            </a>
+        </div>
+    </div>
+    <div id="RightFloatTop">
+        <div>
+            <a href="https://line.me/ti/p/~@730peinl" target="_blank">
+                <img src="/images/Line_icon.png" class="linelogo">
+            </a>
+        </div>
+    </div>
 </main>
 
 @endsection

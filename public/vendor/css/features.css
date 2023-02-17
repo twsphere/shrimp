@@ -85,3 +85,47 @@
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
 }
+
+#RightFloatTop {
+    bottom: 15%;
+    color: transparent;
+    font-size: 0;
+    height: 70px;
+    overflow: hidden;
+    position: fixed;
+    right: 20px;
+    text-decoration: none;
+    width: 70px;
+    z-index: 1101;
+    display: inline;
+}
+
+#RightFloatTop-2 {
+    bottom: 25%;
+    color: transparent;
+    font-size: 0;
+    height: 70px;
+    overflow: hidden;
+    position: fixed;
+    right: 10px;
+    text-decoration: none;
+    width: 80px;
+    z-index: 1100;
+    display: inline;
+}
+
+.cartlink {
+    font-size: 3rem;
+    display: inline-block;
+    text-decoration: none;
+}
+.linelogo {
+    max-width: 100%;
+}
+
+.badge {
+    color: #fff;
+    background-color: #dc3545;
+    font-size: 0.5rem;
+    margin-left: -5px;
+}
