@@ -200,7 +200,17 @@
                         <img src="img/border.png" alt="水晶蝦" width="100%" class="product-items"
                              data-id="{{ $product->id }}" data-price="{{ $product->price }}" data-name="{{ $product->name }}">
                     </div>
-                    <p>售價：${{$product->price}}/隻<br>尺寸：{{$product->size}}</p><p>{{$product->description}}</p>
+                    <div class="info-desc">
+                        <div class="d-inline-block">
+                            <p>售價：${{$product->price}}/隻<br>尺寸：{{$product->size}}</p>
+                        </div>
+                        <div class="d-inline-block" style="float:right">
+                            <button type="button" class="btn btn-link btn-lg product-items-button" data-id="{{ $product->id }}" data-price="{{ $product->price }}" data-name="{{ $product->name }}">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <p>{{$product->description}}</p>
                 </div>
             </div>
             @endforeach
@@ -529,21 +539,6 @@
                     <a href="https://line.me/ti/p/~@730peinl" target="_blank" class="btn btn-success btn-lg">點我加LINE@730peinl</a>
                 </div>
             </div>
-        </div>
-    </div>
-    <div id="RightFloatTop-2">
-        <div>
-            <a href="" class="cartlink">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span class="badge badge-danger" data-count="1">1</span>
-            </a>
-        </div>
-    </div>
-    <div id="RightFloatTop">
-        <div>
-            <a href="https://line.me/ti/p/~@730peinl" target="_blank">
-                <img src="/images/Line_icon.png" class="linelogo">
-            </a>
         </div>
     </div>
 </main>

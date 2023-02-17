@@ -1,4 +1,4 @@
-$(".product-items").on('click', function() {
+$(".product-items, .product-items-button").on('click', function() {
     var name = $(this).data('name');
     var itemId = $(this).data('id');
     Swal.fire({
@@ -29,7 +29,9 @@ $(".product-items").on('click', function() {
                 },
                 beforeSend : function(){},
                 success : function(res) {
-                    console(res.count);
+                    if (res.success == true && res.count > 0) {
+                        $(".cart-count").html(res.count);
+                    }
                 }
             });
             // Swal.fire({
