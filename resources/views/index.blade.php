@@ -308,47 +308,6 @@
                     </div>
                 </div>
             @endforeach
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
-                <div>
-                    <h3 class="fw-bold mb-0 fs-4">金背黃金米蝦</h3>
-                    <div style="background-image: url('img/金背黃1.jpeg');background-size: cover;"><img src="img/border.png" alt="水晶蝦" width="100%"></div>
-                    <p>售價：$20/隻<br>尺寸：1.2cm以上</p><p>公母皆有，隨機出貨，恕無法指定公母</p>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
-                <div>
-                    <h3 class="fw-bold mb-0 fs-4">夢幻藍絲絨</h3>
-                    <div style="background-image: url('img/夢幻藍絲絨3.jpeg');background-size: cover;"><img src="img/border.png" alt="水晶蝦" width="100%"></div>
-                    <p>售價：$20/隻<br>尺寸：1.2cm以上</p><p>公母皆有，隨機出貨，恕無法指定公母</p>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
-                <div>
-                    <h3 class="fw-bold mb-0 fs-4">綠米蝦</h3>
-                    <div style="background-image: url('img/綠米蝦4.jpeg');background-size: cover;"><img src="img/border.png" alt="水晶蝦" width="100%"></div>
-                    <p>售價：$20/隻<br>尺寸：1.2cm以上</p><p>公母皆有，隨機出貨，恕無法指定公母</p>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
-                <div>
-                    <h3 class="fw-bold mb-0 fs-4">香吉士</h3>
-                    <div style="background-image: url('img/香吉士.jpeg');background-size: cover;"><img src="img/border.png" alt="水晶蝦" width="100%"></div>
-                    <p>售價：$20/隻<br>尺寸：1.2cm以上</p><p>公母皆有，隨機出貨，恕無法指定公母</p>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
-                <div>
-                    <h3 class="fw-bold mb-0 fs-4">雪球</h3>
-                    <div style="background-image: url('img/雪球.jpeg');background-size: cover;"><img src="img/border.png" alt="水晶蝦" width="100%"></div>
-                    <p>售價：$20/隻<br>尺寸：1.2cm以上</p><p>公母皆有，隨機出貨，恕無法指定公母</p>
-                </div>
-            </div>
-
         </div>
     </div>
 
