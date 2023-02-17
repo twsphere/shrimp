@@ -196,7 +196,10 @@
                 <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
                 <div>
                     <h3 class="fw-bold mb-0 fs-4">{{ $product->name }}</h3>
-                    <div style="background-image: url('uploads/{{$product->image}}');background-size: cover;"><img src="img/border.png" alt="水晶蝦" width="100%"></div>
+                    <div style="background-image: url('uploads/{{$product->image}}');background-size: cover;">
+                        <img src="img/border.png" alt="水晶蝦" width="100%" class="product-items"
+                             data-id="{{ $product->id }}" data-price="{{ $product->price }}" data-name="{{ $product->name }}">
+                    </div>
                     <p>售價：${{$product->price}}/隻<br>尺寸：{{$product->size}}</p><p>{{$product->description}}</p>
                 </div>
             </div>

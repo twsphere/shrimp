@@ -14,10 +14,11 @@
 <body>
 
 @yield('main')
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <script src="vendor/js/bootstrap.js"></script>
 <script sec="vendor/js/twzipcode.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="vendor/js/main.js"></script>
 </body>
 
 </html>
