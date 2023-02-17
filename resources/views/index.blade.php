@@ -354,54 +354,29 @@
         <h2 class="pb-2 border-bottom">蘇蝦價格表</h2>
         <font color="#003399"><h5 class="fw-semibold mb-0">因蘇蝦在其他廠區，與其它蝦種<font color="red">無法合併運費</font>($200)</h5></font>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
-                <div>
-                    <h3 class="fw-bold mb-0 fs-4">藍幽靈</h3>
-                    <div style="background-image: url('img/藍幽靈2.jpeg');background-size: cover;"><img src="img/border.png" alt="蘇蝦" width="100%"></div>
-                    <p>售價：$1300/隻<br>尺寸：0.8-1.2cm</p><p>隨機出貨，恕無法指定公母</p>
+            @foreach ($products3 as $product)
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4">{{ $product->name }}</h3>
+                        <div style="background-image: url('uploads/{{$product->image}}');background-size: cover;">
+                            <img src="img/border.png" alt="水晶蝦" width="100%" class="product-items"
+                                 data-id="{{ $product->id }}" data-price="{{ $product->price }}" data-name="{{ $product->name }}">
+                        </div>
+                        <div class="info-desc">
+                            <div class="d-inline-block">
+                                <p>售價：${{$product->price}}/隻<br>尺寸：{{$product->size}}</p>
+                            </div>
+                            <div class="d-inline-block" style="float:right">
+                                <button type="button" class="btn btn-link btn-lg product-items-button" data-id="{{ $product->id }}" data-price="{{ $product->price }}" data-name="{{ $product->name }}">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p>{{$product->description}}</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
-                <div>
-                    <h3 class="fw-bold mb-0 fs-4">金眼藍幽靈</h3>
-                    <div style="background-image: url('img/金眼藍幽靈2_new.jpeg');background-size: cover;"><img src="img/border.png" alt="蘇蝦" width="100%"></div>
-                    <p>售價：$1800/隻<br>尺寸：0.81.2cm</p><p>隨機出貨，恕無法指定公母</p>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
-                <div>
-                    <h3 class="fw-bold mb-0 fs-4">紅白襪</h3>
-                    <div style="background-image: url('img/紅白襪.jpeg');background-size: cover;"><img src="img/border.png" alt="蘇蝦" width="100%"></div>
-                    <p>售價：$55/隻(訂購數量10隻起)<br>尺寸：0.8-1.2cm</p><p>隨機出貨，恕無法指定公母</p>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
-                <div>
-                    <h3 class="fw-bold mb-0 fs-4">金眼紅白襪</h3>
-                    <div style="background-image: url('img/金眼紅白襪_new.jpeg');background-size: cover;"><img src="img/border.png" alt="蘇蝦" width="100%"></div>
-                    <p>售價：$800/隻<br>尺寸：0.8-1.2cm</p><p>隨機出貨，恕無法指定公母</p>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
-                <div>
-                    <h3 class="fw-bold mb-0 fs-4">白蘭花</h3>
-                    <div style="background-image: url('img/白蘭花.jpeg');background-size: cover;"><img src="img/border.png" alt="蘇蝦" width="100%"></div>
-                    <p>售價：$55/隻(訂購數量10隻起)<br>尺寸：0.8-1.2cm</p><p>隨機出貨，恕無法指定公母</p>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#shrimp1"></use></svg>
-                <div>
-                    <h3 class="fw-bold mb-0 fs-4">白斑乳牛</h3>
-                    <div style="background-image: url('img/白斑乳牛.jpeg');background-size: cover;"><img src="img/border.png" alt="蘇蝦" width="100%"></div>
-                    <p>售價：$80/隻<br>尺寸：0.8-1.2cm</p><p>隨機出貨，恕無法指定公母</p>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
 
