@@ -41,3 +41,4 @@ $(".product-items, .product-items-button").on('click', function() {
         }
     });
 });
+

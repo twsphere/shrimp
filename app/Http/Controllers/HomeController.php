@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Product;
+use App\Models\TempOrder;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class HomeController extends Controller
 {
@@ -21,10 +23,15 @@ class HomeController extends Controller
             ->where('category_id', '3')
             ->orderBy('sort', 'asc')->get();
 
+        $cartCount = TempOrder::query()
+                ->where('session_id',  Session::getId())
+                ->count() ?? '';
+
         return view('index', [
             'products1' => $products1,
             'products2' => $products2,
-            'products3' => $products3
+            'products3' => $products3,
+            'cartCount' => $cartCount,
         ]);
     }
 }

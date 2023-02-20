@@ -9,6 +9,21 @@ use Illuminate\Support\Facades\Session;
 
 class CartController extends Controller
 {
+    public function checkout(Request $request)
+    {
+        $tempOrder = TempOrder::query()
+                ->with('product')
+                ->where('session_id',  Session::getId())
+                ->get();
+
+        $cartCount = count($tempOrder) ?? '';
+
+        return view('cart', [
+            'tempOrder' => $tempOrder,
+            'cartCount' => $cartCount,
+        ]);
+    }
+
     public function add(Request $request)
     {
         if (empty($request->input('item')) || empty($request->input('nums'))) {
